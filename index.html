@@ -8,29 +8,29 @@
     <title id="title">Calculator</title>
 </head>
 <body>
-  <div class="calculator">
-    <div class="calculator__display">0</div>
-    <div class="calculator__keys">
-      <button class="key--operator" data-action="add">+</button>
-  <button class="key--operator" data-action="subtract">-</button>
-  <button class="key--operator" data-action="multiply">&times;</button>
-  <button class="key--operator" data-action="divide">÷</button>
-  <button>7</button>
-  <button>8</button>
-  <button>9</button>
-  <button>4</button>
-  <button>5</button>
-  <button>6</button>
-  <button>1</button>
-  <button>2</button>
-  <button>3</button>
-  <button>0</button>
-  <button data-action="decimal">.</button>
-  <button data-action="clear">AC</button>
-  <button class="key--equal" data-action="calculate">=</button>
-</div>
+  <div id = "calculatorBody">
+    <div id = "screen">
+        <input id = "numberArea" type = "text" readonly/>
     </div>
-  </div>
+    <div id = "buttons">
+        <button id = "Seven">7</button>
+        <button id = "Eight">8</button>
+        <button id = "Nine">9</button>
+        <button id = "Divide">/</button>
+        <button id = "Four">4</button>
+        <button id = "Five">5</button>
+        <button id = "Six">6</button>
+        <button id = "Multiply">x</button>
+        <button id = "One">1</button>
+        <button id = "Two">2</button>
+        <button id = "Three">3</button>
+        <button id = "Minus">-</button>
+        <button id = "Zero">0</button>
+        <button id = "Dot">.</button>
+        <button id = "Plus">+</button>
+        <button id = "Equals">=</button>
+    </div>            
+</div>
   <script src="js/main.js"></script>  
 </body>
 </html>
