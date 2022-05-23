@@ -2,13 +2,15 @@ body{
   background-color: lightgray;
 }
 
-#numberArea{
+#Display{
   padding: 15px;
   margin-bottom: 20px;
   border-radius: 5px;
   width: 85%;
   height: 40px;
   max-width: 100%;
+  font-size: 30px;
+  font-weight: 550;
 }
 
 #buttons{

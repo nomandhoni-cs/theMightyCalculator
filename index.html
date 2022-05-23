@@ -10,18 +10,12 @@
   <body>
     <div id="calculatorBody">
       <div id="screen">
-        <input id="numberArea" type="text" readonly />
+        <input id="Display" type="text" readonly />
       </div>
-      <button
-        id="clear"
-        style="
-          background-color: red;
-          width: 120px;
-          text-align: center;
-        "
-      >
-        Clear
-      </button>
+      <button id="Clear" style="background-color: red">C</button>
+      <button id="backspace"><span style="margin-left: -15px">⌫</span></button>
+      <button id="bracketOne">(</button>
+      <button id="bracketTwo">)</button>
       <div id="buttons">
         <button id="Seven">7</button>
         <button id="Eight">8</button>
@@ -41,6 +35,7 @@
         <button id="Equals">=</button>
       </div>
     </div>
-    <script src="js/main.js"></script>
+    <script src="js/calculate.js"></script>
+    <!-- <script src="js/main.js"></script> -->
   </body>
 </html>

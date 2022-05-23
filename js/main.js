@@ -71,7 +71,8 @@ add.onclick = function(){
 
 
 sub.onclick = function(){
-    equals.value += "-";
+  equals.value = equals.value + '-'
+    // equals.value += "-";
 }
 
 
