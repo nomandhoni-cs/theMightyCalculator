@@ -1,36 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
     <title id="title">Calculator</title>
-</head>
-<body>
-  <div id = "calculatorBody">
-    <div id = "screen">
-        <input id = "numberArea" type = "text" readonly/>
+  </head>
+  <body>
+    <div id="calculatorBody">
+      <div id="screen">
+        <input id="numberArea" type="text" readonly />
+      </div>
+      <button
+        id="clear"
+        style="
+          background-color: red;
+          width: 120px;
+          text-align: center;
+        "
+      >
+        Clear
+      </button>
+      <div id="buttons">
+        <button id="Seven">7</button>
+        <button id="Eight">8</button>
+        <button id="Nine">9</button>
+        <button id="Divide">/</button>
+        <button id="Four">4</button>
+        <button id="Five">5</button>
+        <button id="Six">6</button>
+        <button id="Multiply">x</button>
+        <button id="One">1</button>
+        <button id="Two">2</button>
+        <button id="Three">3</button>
+        <button id="Minus">-</button>
+        <button id="Zero">0</button>
+        <button id="Dot">.</button>
+        <button id="Plus">+</button>
+        <button id="Equals">=</button>
+      </div>
     </div>
-    <div id = "buttons">
-        <button id = "Seven">7</button>
-        <button id = "Eight">8</button>
-        <button id = "Nine">9</button>
-        <button id = "Divide">/</button>
-        <button id = "Four">4</button>
-        <button id = "Five">5</button>
-        <button id = "Six">6</button>
-        <button id = "Multiply">x</button>
-        <button id = "One">1</button>
-        <button id = "Two">2</button>
-        <button id = "Three">3</button>
-        <button id = "Minus">-</button>
-        <button id = "Zero">0</button>
-        <button id = "Dot">.</button>
-        <button id = "Plus">+</button>
-        <button id = "Equals">=</button>
-    </div>            
-</div>
-  <script src="js/main.js"></script>  
-</body>
+    <script src="js/main.js"></script>
+  </body>
 </html>
