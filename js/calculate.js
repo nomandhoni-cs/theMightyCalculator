@@ -1,7 +1,7 @@
 /*
  * Title: Complete JavaScript of my Calculator Project
  * Description: In this file I wrote full Code
- * Author: Abdullah Al Noman
+ * Author: Abdullah Al Noman Dhoni
  * Date: 23/5/2022
  *
  */
